@@ -1,4 +1,6 @@
-import { Text, StatusBar } from "react-native";
+import './src/lib/dayjs';
+
+import { Text, StatusBar, SafeAreaView } from "react-native";
 import {
   useFonts,
   Inter_400Regular,
@@ -7,6 +9,7 @@ import {
   Inter_800ExtraBold
 } from '@expo-google-fonts/inter'
 import { Loading } from "./src/components/Loading";
+import { Home } from "./src/screens/Home";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -23,7 +26,7 @@ export default function App() {
   }
   return (
     <>
-      <Text style={{ backgroundColor: "#09090a", flex: 1, alignItems: "center" }}> x</Text >
+      <Home />
       <StatusBar barStyle="light-content" backgroundColor="transparent" translucent />
 
     </>

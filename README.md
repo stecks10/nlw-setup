@@ -64,7 +64,7 @@ $ git clone https://github.com/stecks10/nlw-setup.git
 
 ```bash
 # Go into the repository
-$ cd habits-tracker/web
+$ cd nlw-setup/web
 # Install dependencies
 $ npm install
 # Run the development server
@@ -76,7 +76,7 @@ $ npm run dev
 
 ```bash
 # Go into the repository
-$ cd habits-tracker/mobile
+$ cd nlw-setup/mobile
 # Install dependencies
 $ npm install
 # Run the development server
@@ -89,7 +89,7 @@ $ npx expo start
 
 ```bash
 # Go into the repository
-$ cd habits-tracker/server
+$ cd nlw-setup/server
 # Install dependencies
 $ npm install
 # Create the .env file in the repository using the sample file .env.example

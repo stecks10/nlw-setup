@@ -1,45 +1,63 @@
 <h1 align="center">
-  Habits Tracker
+  <center>Next Level Week - Setup</center>
 </h1>
 
-<p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/leondavidtb/habits-tracker">
+> O projeto desenvolvido na primeira edição da NLW de 2023 é um Habit Tracker.
 
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/leondavidtb/habits-tracker">
+## ✅ Funcionalidades
 
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/leondavidtb/habits-tracker">
+- [x] Criar hábito
+- [x] Marcar como concluído
+- [x] Desmarcar
+- [x] Listar hábitos do dia
+- [x] Acompanhar progresso dos hábitos
+- [x] Quadro com visualização por cor da frequência de hábitos
 
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/leondavidtb/habits-tracker">
+## 🖼️ Layout
 
-</p>
+- É possível acessar o layout feito pela Rocketseat [clicando nesse link pro Figma](https://www.figma.com/community/file/1195326661124171197).
 
-<br/>
+## 📌 Tecnologias utilizadas
 
-![Cover](./assets/cover.png)
+### 🚀 Front End Web
 
-## 💻 Project
+- ReactJS
+- ViteJS
+- TypeScript
+- Tailwind CSS
+- Axios
+- Radix UI
+- Phosphor react
+- Clsx
+- Dayjs
 
-Habit tracking application developed during Rocketseat's NLW Setup. This repository contains the mobile application files in React Native, web in ReactJS and the server in node.
+### 🚀 Back End
 
-## 🚀 Technologies
+- NodeJS
+- Fastify
+- TypeScript
+- Prisma
+- Sqlite
+- Dayjs
+- Zod
 
-This project was developed with the main following technologies:
+### 🚀 Mobile
 
-- [React Native](https://reactnative.dev)
-- [React](https://reactjs.org/)
-- [Node](https://nodejs.org/)
+- React Native
+- TypeScript
+- Expo
+- Axios
+- Clsx
+- Dayjs
+- React Navigation
+- React Native Reanimated
+- Tailwind CSS
 
-## 🔖 Layout
-
-You can view the layout of the project in the [web and mobile](<https://www.figma.com/file/v5n3GPM7sPt7EULVOdJzuC/Habits-(i)-(Community)?node-id=6%3A344&t=Cq4TNPTiOltLFgL4-0>) version.
-
-## ℹ️ How To Use
-
-To clone and run this application, you'll need [git](https://git-scm.com), [npm](https://www.npmjs.com/), [node](https://nodejs.org/en/). From your command line:
+## ℹ️ Como Rodar
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/leondavidtb/habits-tracker.git
+$ git clone https://github.com/stecks10/nlw-setup.git
 ```
 
 ### 🖥️ Web
@@ -81,5 +99,3 @@ $ npm run start
 ```
 
 ---
-
-<p align="center">Made with ☕ by Leonardo David 👋🏻 <a href="https://www.linkedin.com/in/leondavidtb/">Get in touch!</a></p>
